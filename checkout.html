@@ -20,6 +20,37 @@
     <main>
         <h2>Checkout</h2>
         <p>Water Bottle R29.99</p>
+        <div class="checkout container">
+            <h2>Checkout</h2>
+
+            <div class="user.info">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+
+            </div>
+
+            <div class="payment-info">
+                <label for="card-number">Credt Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required><br>
+
+                <label for="expiry">Expiry Date:</label>
+                <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required><br>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required><br>
+
+            </div>
+
+            <div class="order summary">
+
+            </div>
+
+            <button type="submit">Place Order</button>
+        </div>
     </main>
     <footer>
         <p>Copyright &copy;2023</p>
